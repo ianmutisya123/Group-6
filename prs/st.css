@@ -1,0 +1,66 @@
+header, footer{
+    width: 100%;
+}
+table{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+div .side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: centerf;
+    gap: 100px;
+    background: yellow;
+    padding: 20px;
+    
+    border: 1px solid blue;
+    
+}
+div main img{
+    width: 700px;
+    height: auto;
+}
+div main .main{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.farmer-card {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+.btn {
+    background: green;
+    color: black;
+}
+@media screen and (max-width:600px) {
+    div{
+        display: flex;
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+    div main img{
+        width: 450px;
+        height: auto;
+    }
+    table{
+        gap:10px;
+    }
+    table tr td{
+        display: block;
+        gap: 10px;
+    }
+}
